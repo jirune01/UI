@@ -1,6 +1,10 @@
 
 @import "tailwindcss";
 
+/* set dark mode */
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+
+
 * {
   color: #FFF;
   background-color: #242424;
