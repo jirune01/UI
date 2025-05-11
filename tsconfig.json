@@ -27,13 +27,12 @@
       "pages/*": ["src/pages/*"],
       "widgets/*": ["src/widgets/*"],
       "hooks/*": ["src/hooks/*"],
-      "states/*": ["src/states/*"],
       "components/*": ["src/components/*"],
       "styles/*": ["src/styles/*"],
-      "utils/*": ["src/utils/*"],
       "shared/*": ["src/shared/*"],
       "types/*": ["src/types/*"],
-      "constants/*": ["src/constants/*"]
+      "constants/*": ["src/constants/*"],
+      "states/*": ["src/states/*"]
     }
   },
   "include": [
