@@ -1,11 +1,10 @@
-import { useAtom } from "jotai";
+import { useSetAtom } from "jotai";
 import { selectComponentAtom } from "states/atom";
 
 import { COMPONENT_MENU_LIST } from "constants/define";
 
 export const SideMenu = () => {
-  const [selectComponent, setSelectComponent] = useAtom(selectComponentAtom);
-  // console.log(selectComponent, "selectComponent");
+  const setSelectComponent = useSetAtom(selectComponentAtom);
 
   const onSelectComponent = (value: string) => {
     setSelectComponent(value);
