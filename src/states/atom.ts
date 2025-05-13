@@ -1,3 +1,3 @@
 import { atom } from "jotai";
 
-export const selectComponentAtom = atom<string>("");
+export const selectComponentAtom = atom<string>("Accordion");
