@@ -12,7 +12,9 @@
   padding: 16px;
   justify-content: space-between;
   align-items: center;
-  background-color: #242424;
+  background-color: #282828;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
 }
 
 .code-header-circle {
@@ -22,11 +24,11 @@
 }
 
 .code-main {
-  padding: 24px 20px;
+  padding: 4px 20px;
   min-height: 750px;
   max-height: 750px;
   overflow-x: hidden;
   overflow-y: auto;
-  background-color: #282828;
+  background-color: #121212;
   font-size: 14px;
 }
