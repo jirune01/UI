@@ -2,38 +2,43 @@ export const COMPONENT_MENU_LIST = [
   {
     value: "Accordion",
   },
-  {
-    value: "Button",
-  },
+  // {
+  // value: "Button",
+  // },
   {
     value: "CheckBox",
   },
   {
     value: "Radio",
   },
-  {
-    value: "Input",
-  },
-  {
-    value: "Card",
-  },
-  {
-    value: "List",
-  },
+  // {
+  //   value: "Input",
+  // },
+  // {
+  // value: "Card",
+  // },
+  // {
+  // value: "List",
+  // },
   {
     value: "Select",
   },
-  {
-    value: "Calendar",
-  },
-  // 기능성ㄴ
+  // {
+  // value: "Calendar",
+  // },
   {
     value: "Loading",
   },
-  {
-    value: "popup",
-  },
-  {
-    value: "message",
-  },
+  // {
+  // value: "Popup",
+  // },
+  // {
+  // value: "Message",
+  // },
+];
+
+export const NO_COMPONENT_MENU_LIST = [
+  { value: "Loading" },
+  { value: "Popup" },
+  { value: "Message" },
 ];
