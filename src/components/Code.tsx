@@ -2,6 +2,52 @@ import { SettingIcon } from "assets/icons/svg/SettingIcon";
 import "styles/code.css";
 
 export const Code = () => {
+  const codes = `
+  import { useState } from "react"
+  
+  export const Accordion = () => {
+    return (
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+      <div>3</div>
+    )
+  }
+  `;
+
   return (
     <div className="code-container">
       <div className="code-header">
@@ -25,7 +71,9 @@ export const Code = () => {
       </div>
 
       {/* code  */}
-      <div className="code-main custom-view-scrollbar">123</div>
+      <div className="code-main custom-view-scrollbar whitespace-pre">
+        {codes}
+      </div>
     </div>
   );
 };
